@@ -1,0 +1,62 @@
+.card {
+  width: 486px;
+  border-radius: 8px;
+  background: #171d1f;
+}
+
+.header {
+  border-radius: 8px 8px 0 0;
+  padding: 24px;
+  gap: 8px;
+  background: #888888;
+  display: flex;
+  justify-content: center;
+}
+
+.header figure {
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.image {
+  border-radius: 8px;
+  box-shadow: 0px 16px 24px 0px #0000003d;
+}
+
+.body {
+  background: #171d1f;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 0 0 8px 8px;
+  color: #bcbcbc;
+  display: flex;
+  flex-direction: column;
+}
+
+.body h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 0;
+}
+
+.body p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 16px;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
